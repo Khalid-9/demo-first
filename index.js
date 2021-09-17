@@ -30,7 +30,8 @@ const list = document.querySelector('#lst');
 //    } else{
 //     list.style.top = '-190%'
 //    }
-// }
+//  hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+//}
 
 menu.addEventListener('click',  () =>{
   if(list.style.top != '2%'){

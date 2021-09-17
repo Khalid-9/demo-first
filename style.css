@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+body {
+  background-color: rgb(214, 214, 214);
+}
+
+.bar {
+  /* width: 80%; */
+  background-color: black;
+  height: 10vh;
+}
+.center {
+  /* background-color: blueviolet; */
+  width: 80vw;
+  height: 11vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+  border-radius: 2px;
+  color: azure;
+  cursor: pointer;
+
+  border-radius: 19px;
+}
+.list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.m-1 {
+  margin: 0px auto;
+}
+a {
+  font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px 8px;
+  padding-bottom: 7px;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.itame {
+  list-style: none;
+}
+.itame a:hover {
+  background-color: red;
+}
+#menu {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  height: 33px;
+  background-color: #fff;
+  display: none;
+}
